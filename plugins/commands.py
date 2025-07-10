@@ -23,10 +23,10 @@ START_TIME = time.time()
 main_buttons = [[
     InlineKeyboardButton('⛈️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ⛈️', url='https://t.me/me_miss_you')
 ],[
-    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/AjeetXsupport'),
+    InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Ajeet_support'),
     InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ajeet_bots')
 ],[
-    InlineKeyboardButton('💝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ', url='https://t.me/ajmoviegroup')
+    InlineKeyboardButton('💝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ ', url='https://t.me/aj_movie_group')
 ],[
     InlineKeyboardButton('👨‍💻 ʜᴇʟᴘ', callback_data='help'),
     InlineKeyboardButton('💁 ᴀʙᴏᴜᴛ', callback_data='about')
