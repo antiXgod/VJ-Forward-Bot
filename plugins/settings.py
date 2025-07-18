@@ -478,7 +478,7 @@ def extra_buttons():
        InlineKeyboardButton('🕹 Extensions',
                     callback_data=f'settings#get_extension')
        ],[
-       InlineKeyboardButton('⫷ Bᴀᴄᴋ',
+       InlineKeyboardButton('◀ Bᴀᴄᴋ',
                     callback_data=f'settings#main')
        ]]
    return InlineKeyboardMarkup(buttons)
@@ -507,7 +507,7 @@ def main_buttons():
        InlineKeyboardButton('Exᴛʀᴀ Sᴇᴛᴛɪɴɢs 🧪',
                     callback_data=f'settings#extra')
        ],[
-       InlineKeyboardButton('⫷ Bᴀᴄᴋ',
+       InlineKeyboardButton('◀ Bᴀᴄᴋ',
                     callback_data=f'help')
        ]]
   return InlineKeyboardMarkup(buttons)
@@ -635,7 +635,7 @@ async def filters_buttons(user_id):
        InlineKeyboardButton('✅' if filter['forward_tag'] else '❌',
                     callback_data=f'settings#updatefilter-forward_tag-{filter["forward_tag"]}')
        ],[
-       InlineKeyboardButton('🖍️ Texts',
+       InlineKeyboardButton('✎ Texts',
                     callback_data=f'settings_#updatefilter-text-{filters["text"]}'),
        InlineKeyboardButton('✅' if filters['text'] else '❌',
                     callback_data=f'settings#updatefilter-text-{filters["text"]}')
@@ -645,7 +645,7 @@ async def filters_buttons(user_id):
        InlineKeyboardButton('✅' if filters['document'] else '❌',
                     callback_data=f'settings#updatefilter-document-{filters["document"]}')
        ],[
-       InlineKeyboardButton('🎞️ Videos',
+       InlineKeyboardButton('🎬 Videos',
                     callback_data=f'settings_#updatefilter-video-{filters["video"]}'),
        InlineKeyboardButton('✅' if filters['video'] else '❌',
                     callback_data=f'settings#updatefilter-video-{filters["video"]}')
@@ -660,9 +660,9 @@ async def filters_buttons(user_id):
        InlineKeyboardButton('✅' if filters['audio'] else '❌',
                     callback_data=f'settings#updatefilter-audio-{filters["audio"]}')
        ],[
-       InlineKeyboardButton('⫷ back',
+       InlineKeyboardButton('◀ back',
                     callback_data="settings#main"),
-       InlineKeyboardButton('next ⫸',
+       InlineKeyboardButton('next ▶',
                     callback_data="settings#nextfilters")
        ]]
   return InlineKeyboardMarkup(buttons) 
@@ -706,9 +706,9 @@ async def next_filters_buttons(user_id):
        InlineKeyboardButton('✅' if filter['protect'] else '❌',
                     callback_data=f'settings#updatefilter-protect-{filter["protect"]}')
        ],[
-       InlineKeyboardButton('⫷ back', 
+       InlineKeyboardButton('◀ back', 
                     callback_data="settings#filters"),
-       InlineKeyboardButton('End ⫸',
+       InlineKeyboardButton('End ▶',
                     callback_data="settings#main")
        ]]
   return InlineKeyboardMarkup(buttons) 
