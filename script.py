@@ -2,11 +2,10 @@ import os
 from config import Config
 
 class  Script(object):
-  START_TXT = """<b>ʜɪ {}
+  START_TXT = """<b>ʜɪ {} ʙᴀʙʏ
   
 ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴊᴇᴇᴛ ꜰᴏʀᴡᴀʀᴅ ʙᴏᴛ
 ɪ ᴄᴀɴ ꜰᴏʀᴡᴀʀᴅ ᴀʟʟ ᴍᴇssᴀɢᴇ ꜰʀᴏᴍ ᴏɴᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ</b>
-
 <b> <blockquote>💥 ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ  - <a href=https://graph.org/file/1e359d4cbc0da5acefd40-b7c5ef987db83761c1.jpg> ᴍᴇ </b></blockquote></a>
 <b> <blockquote><spoiler>💓 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href=https://t.me/me_miss_you>𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ </b></spoiler></blockquote></a>
 """
@@ -38,7 +37,7 @@ class  Script(object):
 ► ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ [ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ](https://youtu.be/wO1FE-lf35I)</b>"""
   
   ABOUT_TXT = """<b>
-╔════❰ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ ❱═❍⊱❁۪۪
+╔════❰ ᴀᴊᴇᴇᴛ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼📃ʙᴏᴛ : [Fᴏʀᴡᴀᴅ Bᴏᴛ](https://t.me/AJForwardrobot)
 ║┣⪼👦Cʀᴇᴀᴛᴏʀ : [ 𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/me_miss_you)
