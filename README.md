@@ -1,4 +1,4 @@
-# AJEET Forward Bot
+# ᴀᴊᴇᴇᴛ ꜰᴏʀᴡᴀʀᴅ ʙᴏᴛ
 
 <b>Auto Restart All User Forwarding After Bot Restarted.</b>
 
