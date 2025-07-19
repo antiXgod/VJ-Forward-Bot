@@ -1,4 +1,4 @@
-# VJ Forward Bot
+# AJEET Forward Bot
 
 <b>Auto Restart All User Forwarding After Bot Restarted.</b>
 
@@ -18,7 +18,7 @@
 - [x] Auto Restart Pending Task After Bot Restart 
 
 
-<b>To Know About All Features, Join My <a href='https://t.me/VJ_Botz'>Update Channel</a>.</b>
+<b>To Know About All Features and all bots information , Join My <a href='https://t.me/Ajeet_Bots'>Update Channel</a>.</b>
 
 ## Commands
 
